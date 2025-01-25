@@ -1,8 +1,13 @@
+import HeroBox from "./components/HeroBox"
+import Navbar from "./components/Navbar"
 
 
 const App = () => {
   return (
-    <div className="text-5xl font-playfair uppercase">Renevo</div>
+    <div className="bg-[#202020] overflow-hidden relative">
+      <Navbar />
+      <HeroBox />
+    </div>
   )
 }
 
